@@ -1,0 +1,22 @@
+#outer-div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+#inner-div{
+    height: 100px;
+    width: 100px;
+    clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+    background-color: blue;
+}
